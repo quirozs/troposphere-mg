@@ -150,6 +150,7 @@ class Function(AWSObject):
         "EventInvokeConfig": (EventInvokeConfiguration, False),
         "Events": (dict, False),
         "FileSystemConfigs": ([FileSystemConfig], False),
+        "FunctionUrlConfig": (dict, False),
         "FunctionName": (str, False),
         "Handler": (str, False),
         "ImageConfig": (ImageConfig, False),
